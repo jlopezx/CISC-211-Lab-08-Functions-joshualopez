@@ -54,7 +54,7 @@ bool doMultTest    = true;
 bool doFixSignTest = true;
 bool doAsmMainTest = true;
 
-bool onlyPrintFails = true; // set this to false to see passing test cases, too
+bool onlyPrintFails = false; // set this to false to see passing test cases, too
 
 /* RTC Time period match values for input clock of 1 KHz */
 #define PERIOD_10MS                             10
